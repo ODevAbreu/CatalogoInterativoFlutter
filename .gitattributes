@@ -1,0 +1,22 @@
+# Sem estes marcadores o Git trata o PDF como texto e aplica conversao de
+# fim de linha (LF -> CRLF), corrompendo o arquivo no checkout.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.ttf binary
+*.otf binary
+*.jar binary
+*.keystore binary
+
+# Codigo-fonte normalizado em LF no repositorio.
+*.dart text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.sql text eol=lf
+*.gradle text eol=lf
+*.kts text eol=lf
+*.xml text eol=lf
